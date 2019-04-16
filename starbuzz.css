@@ -91,3 +91,17 @@ vertical-align: top;
   width: 400px;
   height: 100px;
 }
+#award{
+  position: absolute;
+  top: 30px;
+  left:365px;
+}
+#coupon{
+  position: fixed;
+  top: 100px;
+  left:0;
+
+}
+#coupon a, img{
+  border: none;
+  }
