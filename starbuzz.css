@@ -5,7 +5,7 @@ body {
   margin:           0px;
 }
 
-#header {
+header {
   background-color: #675c47;
   margin: 10px 10px 0px 10px;
   
@@ -21,7 +21,7 @@ body {
   vertical-align: top;
 }
 
-#sidebar {
+aside {
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
@@ -30,7 +30,7 @@ body {
  
 }
 
-#footer {
+footer {
   background-color: #675c47;
   color:            #efe5d0;
   text-align:       center;
@@ -96,12 +96,16 @@ vertical-align: top;
   top: 30px;
   left:365px;
 }
-#coupon{
-  position: fixed;
-  top: 100px;
-  left:0;
 
-}
-#coupon a, img{
-  border: none;
+  #coupon{
+    position: fixed;
+    top:350px;
+    left: -200px;
+    transition: all 2s linear;
+    
   }
+  #coupon:hover{
+  
+   left: 0;
+  }
+  
